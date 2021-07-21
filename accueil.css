@@ -1,0 +1,41 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+.menu a {
+    font-family: ALGERIAN;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.header{
+    background-color: #5dbbff;
+    height: 50px;
+    line-height: 50px;
+}
+.container-fluid{
+    padding: 0; 
+}
+.logo{
+    color: #ffffff;
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+.menu a{
+    color: #ffffff;
+    margin-right: 35px;
+}
+
+.menu a:hover{
+    color: #030300;
+    font-size: 19px;
+}

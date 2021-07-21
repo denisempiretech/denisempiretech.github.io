@@ -1,0 +1,101 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+.cors_actualite {
+  height: 100vh;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+#entete_actualite_voir_plus {
+  margin-top: 10px;
+  width: 100%;
+  height: 65px;
+  background-color: #5dbbff;
+}
+#entete_actualite_voir_plus h1 {
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 39px;
+}
+#desc_contenu_actualite {
+  margin-top: 25px;
+}
+#desc_contenu_actualite img {
+  width: 100%;
+  height: 400px;
+}
+.contenant {
+  position: relative;
+  text-align: center;
+}
+.texte_centrer {
+  position: absolute;
+  top: 90%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.texte_centrer:hover {
+  top: 60%;
+}
+.thumbnail:hover {
+  border: 3px solid #5dbbff;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border 0.5s;
+}
+.card:hover {
+  border: 3px solid #5dbbff;
+}
+.card:hover > div {
+  height: auto;
+  bottom: 0;
+}
+.card:hover > img {
+  opacity: 0.9;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: bottom 0.5s;
+}
+.text {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  padding-bottom: 20px;
+  line-height: 24px;
+  position: absolute;
+  bottom: -55%;
+  transition: bottom 0.5s, height 0.5s;
+  color: white;
+}
+.text div {
+  height: 50%;
+  width: 100%;
+}
+.text .title {
+  position: relative;
+  text-align: left;
+}
+.text .title h3 {
+  position: absolute;
+  bottom: 10%;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.paragraphe {
+  text-align: left;
+  font-size: 17px;
+  color: rgb(12, 3, 3);
+  font-weight: bold;
+}

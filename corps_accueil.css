@@ -1,0 +1,610 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  font-family: "Lato";
+}
+
+.cors_accueil #entete_headder {
+  width: 100%;
+  height: 90px;
+  /* border: 2px solid red; */
+}
+/* .aaaaa{
+    display: flex;
+} */
+/* #gauche_entete{
+    width: 35%;
+} */
+#droite_entete {
+  text-align: center;
+  width: 100%;
+  margin-top: 25px;
+}
+#droite_entete #reecouter {
+  color: black;
+  font-size: 19px;
+}
+@media only screen and (max-width: 320px) {
+  #reecouter {
+    color: black;
+    font-size: 15px;
+  }
+}
+#droite_entete #reecouter a {
+  color: black;
+  font-size: 22px;
+}
+#droite_entete #reecouter a:hover {
+  color: #5dbbff;
+  cursor: pointer;
+}
+#voustetesurdvs {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+#entete_headder span {
+  color: red;
+}
+#entete_headder #frequence {
+  color: black;
+}
+.separator {
+  padding: 5px;
+  background-color: black;
+  border-radius: 10px;
+  z-index: 1;
+}
+.cors_accueil .soutenir {
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.cors_accueil .soutenir a {
+  text-decoration: none;
+  color: #ff0016;
+}
+.cors_accueil .soutenir a:hover {
+  font-size: 18px;
+}
+.nom_ala_une span {
+  font-weight: bold;
+}
+.nom_ala_une {
+  color: #ff0016;
+  font-size: 17px;
+}
+.infos_une h1 {
+  margin-top: 20px;
+}
+.infos_une .separation {
+  margin-top: 50px;
+  background-color: #c0c0c0;
+  padding: 2px;
+  z-index: 1;
+}
+.infos_une .btn-custom {
+  color: white;
+  background-color: #5dbbff;
+  font-size: 17px;
+  font-weight: bold;
+  width: 150px;
+  padding: 7px;
+  border-radius: 5px;
+}
+#liendon {
+  color: #ff0016;
+  cursor: pointer;
+  text-decoration: none;
+}
+#liendon:hover {
+  color: #ff0a1f;
+  font-weight: bold;
+}
+.infos_une .gauche {
+  margin-top: 20px;
+  border-left: 2px solid #c0c0c0;
+  text-align: center;
+}
+.image:hover {
+  box-shadow: 1px 1px 3px 3px #c0c0c0;
+  cursor: pointer;
+}
+.infos_une p {
+  font-size: 16px;
+  color: rgb(22, 21, 21);
+}
+.infos_une .gauche .entete {
+  text-transform: uppercase;
+}
+.infos_une .gauche .bottom_gauche a:hover {
+  color: #ff0016;
+}
+.infos_une .gauche .bottom_gauche span {
+  font-weight: bold;
+}
+.infos_une .gauche .bottom_gauche a {
+  text-decoration: none;
+  color: #c0c0c0;
+}
+.aide_radio {
+  width: 100%;
+  height: auto;
+  background-color: #5dbbff;
+  margin-top: 35px;
+}
+.aide_radio h1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.aide_radio h4 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.aide_radio h4 a {
+  color: #ff0016;
+}
+.aide_radio h3 a:hover {
+  color: black;
+}
+.aide_radio img {
+  height: 110px;
+  width: 100%;
+}
+.aide_radio p {
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+}
+.sous_aide_radio {
+  width: 100%;
+  height: 517px;
+  margin-top: 20px;
+  overflow-y: scroll;
+  scroll-behavior: inherit;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #bfbfbf;
+  border-radius: 10px;
+}
+.sous_aide_radio .barre_separation_aide_radio {
+  width: 100%;
+  padding: 2px;
+  background-color: #bfbfbf;
+}
+#past_new {
+  text-transform: uppercase;
+  background-color: #5dbbff;
+  color: black;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.contenu_derniere_nouvelle {
+  display: flex;
+}
+#nn1 {
+  width: 100px;
+}
+#nn1:hover {
+  box-shadow: 1px 1px 3px 3px #bfbfbf;
+}
+#nn2 {
+  width: 300px;
+  margin-left: 15px;
+}
+.contenu_derniere_nouvelle img {
+  width: 100px;
+  height: 60px;
+  cursor: pointer;
+}
+.contenu_derniere_nouvelle #new {
+  color: #5dbbff;
+  font-size: 17px;
+}
+.contenu_derniere_nouvelle #new a:hover {
+  color: #ff0016;
+}
+
+.actualy header {
+  height: 65px;
+  width: 100%;
+  background-color: #5dbbff;
+  margin-top: 15px;
+}
+.actualy header h1 {
+  font-size: 39px;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.actualy header .nouvelle {
+  float: left;
+  height: 65px;
+}
+.btn_nouvelle {
+  height: 65px;
+}
+.actualy header .btn_nouvelle {
+  float: right;
+}
+.actualy header .btn_nouvelle .btn-custom {
+  width: 100px;
+  padding: 4px;
+  color: white;
+  border-radius: 5px;
+  background-color: #ff0016;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.actualy header .btn_nouvelle .btn-custom:hover {
+  color: black;
+}
+.actualite {
+  margin-top: 10px;
+}
+.actualite .img_actualite img {
+  width: 100%;
+  height: 300px;
+}
+
+.actualite .img_actualite:hover {
+  box-shadow: 1px 1px 3px 3px #c0c0c0;
+  cursor: pointer;
+}
+.actualite h1 {
+  margin-top: 20px;
+}
+.actualite .separation {
+  margin-top: 50px;
+  background-color: #c0c0c0;
+  padding: 2px;
+  z-index: 1;
+}
+.actualite .btn-custom {
+  color: white;
+  background-color: #5dbbff;
+  font-size: 17px;
+  font-weight: bold;
+  width: 150px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.actualite h1 a {
+  color: black;
+  text-decoration: none;
+}
+.actualite h1 a:hover {
+  color: #ff0016;
+}
+.actualite p {
+  font-size: 16px;
+  color: rgb(22, 21, 21);
+}
+.actualite .aaaa {
+  color: #ff0016;
+}
+.actualite .autre_actualite {
+  width: 100%;
+  height: auto;
+  background-color: #bfbfbf;
+  margin-top: 15px;
+}
+.actualite .autre_actualite .entete_autre_actualite {
+  text-transform: uppercase;
+  color: rgb(39, 34, 34);
+}
+.autre_actualite .separat {
+  background-color: white;
+  padding: 2px;
+  z-index: 1;
+}
+.autre_actualite .infos a {
+  text-decoration: none;
+  color: black;
+}
+.autre_actualite .infos a:hover {
+  color: #ff0016;
+}
+.autre_actualite .infos span {
+  font-weight: bold;
+}
+
+/* <!-- DEBUT CSS  SPIRITUALITE --> */
+
+.spiritualite header {
+  height: 65px;
+  width: 100%;
+  background-color: #5dbbff;
+}
+.spiritualite header .spiri {
+  font-size: 39px;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.spiritualite .nouvelle_spiritualite {
+  float: left;
+  height: 65px;
+}
+.spiritualite .btn_spiritualite {
+  float: right;
+  height: 65px;
+}
+.spiritualite header .btn_spiritualite .btn-custom {
+  width: 100px;
+  padding: 4px;
+  color: white;
+  border-radius: 5px;
+  background-color: #ff0016;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.spiritualite .btn_spiritualite .btn-custom:hover {
+  color: black;
+}
+
+/* debut CSS premiere ligne .spiritualite */
+
+.spirituality {
+  margin-top: 10px;
+}
+.spirituality .img_spiritualite img {
+  width: 100%;
+  height: 300px;
+  margin-top: 18px;
+}
+.spirituality .img_spiritualite img:hover {
+  width: 100%;
+  height: 300px;
+  margin-top: 18px;
+  box-shadow: 1px 1px 3px 3px #c0c0c0;
+  cursor: pointer;
+}
+.spirituality h1 {
+  margin-top: 20px;
+}
+.spirituality .sepa {
+  margin-top: 50px;
+  background-color: #c0c0c0;
+  padding: 2px;
+  z-index: 1;
+}
+.spirituality .btn-custom {
+  color: white;
+  background-color: #5dbbff;
+  font-size: 17px;
+  font-weight: bold;
+  width: 150px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.spirituality h1 a {
+  color: black;
+  text-decoration: none;
+}
+.spirituality h1 a:hover {
+  color: #ff0016;
+}
+.spirituality p {
+  font-size: 16px;
+  color: rgb(22, 21, 21);
+}
+.spirituality .date {
+  color: #ff0016;
+}
+/* fin CSS premiere ligne .spiritualite */
+
+/* debut CSS deuxieme ligne .spiritualite */
+
+/* fin CSS deuxieme ligne .spiritualite */
+
+/* <!-- end CSS SPIRITUALITE --> */
+
+/* DEBUT CSS REVUES */
+
+/* debut CSS entete REVUES */
+.podcast header {
+  height: 65px;
+  width: 100%;
+  background-color: #5dbbff;
+  margin-top: 15px;
+}
+.podcast header h1 {
+  font-size: 39px;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.podcast header .nouvelle_podcast {
+  float: left;
+  height: 65px;
+}
+.podcast header .btn_podcast {
+  float: right;
+  height: 65px;
+}
+.podcast header .btn_podcast .btn-customs {
+  width: 100px;
+  padding: 4px;
+  color: white;
+  border-radius: 5px;
+  background-color: #ff0016;
+  font-size: 16px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.podcast header .btn_podcast .btn-customs a {
+  color: white;
+  font-weight: bold;
+}
+.podcast header .btn_podcast .btn-customs a:hover {
+  color: black;
+}
+.podcast .contenu_header {
+  margin-top: 16px;
+}
+/* Fin CSS entete REVUES */
+
+/*debut premiere ligne podcast*/
+
+.titreparagraph1 {
+  margin-top: 20px;
+  color: black;
+}
+.bb {
+  color: black;
+  text-decoration: none;
+}
+.bb:hover {
+  color: #ff0016;
+}
+.separat_titres {
+  background-color: #bfbfbf;
+  padding: 2px;
+}
+.description {
+  font-size: 16px;
+  color: rgb(22, 21, 21);
+}
+.fff {
+  margin-top: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+.btn-register {
+  width: 100px;
+  padding: 5px;
+  float: right;
+  font-size: 17px;
+  outline: none;
+  margin-top: 2px;
+  border: none;
+  border-radius: 3px;
+  background-color: #5dbbff;
+  color: white;
+}
+.btn-register:hover {
+  background-color: #3994d4;
+}
+.bas_video {
+  width: 100%;
+  margin-top: 3px;
+  /* height: 50px; */
+  height: auto;
+  border-bottom: 3px solid #ff0016;
+}
+.bas_video:hover {
+  border-bottom: 3px solid #ff0016;
+  cursor: pointer;
+}
+/*fin premiere ligne podcast*/
+
+/* FIN CSS REVUES */
+
+/* DEBUT CSS QUOTIDIEN */
+
+/* debut entete CSS QUOTIDIEN */
+
+.quotidien header {
+  height: 65px;
+  width: 100%;
+  background-color: #5dbbff;
+  margin-top: 15px;
+}
+.quotidien header h1 {
+  font-size: 39px;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.quotidien header .nouvelle_quotidien {
+  float: left;
+  height: 65px;
+}
+.quotidien header .btn_quotidien {
+  float: right;
+  height: 65px;
+}
+.quotidien header .btn_quotidien .btn-customs {
+  width: 100px;
+  padding: 4px;
+  color: white;
+  border-radius: 5px;
+  background-color: #ff0016;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.quotidien header .btn_quotidien .btn-customs a {
+  color: white;
+}
+.quotidien header .btn_quotidien .btn-customs a:hover {
+  color: black;
+}
+
+/* fin entete CSS QUOTIDIEN */
+
+.vie_quotidienne {
+  margin-top: 15px;
+}
+.vie_quotidienne .img_vie_quotidienne img {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.vie_quotidienne .img_vie_quotidienne img:hover {
+  box-shadow: 1px 1px 3px 3px #c0c0c0;
+  cursor: pointer;
+}
+.vie_quotidienne h1 {
+  margin-top: 20px;
+}
+.vie_quotidienne .separation {
+  margin-top: 50px;
+  background-color: #c0c0c0;
+  padding: 2px;
+}
+.vie_quotidienne .btn-custom {
+  color: white;
+  background-color: #5dbbff;
+  font-size: 17px;
+  font-weight: bold;
+  width: 150px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.vie_quotidienne h1 a {
+  color: black;
+  text-decoration: none;
+}
+.vie_quotidienne h1 a:hover {
+  color: #ff0016;
+}
+.vie_quotidienne p {
+  font-size: 16px;
+  color: rgb(22, 21, 21);
+}
+.vie_quotidienne .aaaa {
+  color: #ff0016;
+}
+/* FIN CSS QUOTIDIEN */
